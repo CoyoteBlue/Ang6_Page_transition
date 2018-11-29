@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div class="wrapper">
+    <app-navigation></app-navigation>
+    <app-header></app-header>
+
+    <div id="page" class="container">
+
+        <div style="text-align:center">
+            <h2> Welcome to {{ title }}!</h2>
+            <br />
+            <router-outlet></router-outlet>
+
+
+        </div>
+        <!-- ./container mainbody-->
+        <div class="footer text-center">
+            <div>
+                <a routerLink="/app-root">Admin</a>
+            </div>
+        </div>
+    </div>
+    <!-- ./wrapper -->
